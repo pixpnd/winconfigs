@@ -151,7 +151,7 @@ window_rules:
         window_title: { regex: '.*? - Peek' }
       - window_process: { equals: 'Lively' }
         window_class: { regex: 'HwndWrapper' }
-      - window_process: {regex: 'Mini App:.+'}
+      - window_title: {regex: 'Mini App:.+'}
       - window_title: { regex: 'Fluent Search' }
   - commands: ['set-floating']
     match: 
