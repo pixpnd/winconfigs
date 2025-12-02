@@ -156,6 +156,7 @@ window_rules:
   - commands: ['set-floating']
     match: 
       - window_title: {regex: 'Now Playing Assistant' }
+      - window_title: { equals: 'Everything' }
   - commands: ['move --workspace 2']
     match:
       # Move browsers to workspace 2.
