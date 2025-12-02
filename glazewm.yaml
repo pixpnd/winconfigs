@@ -153,6 +153,7 @@ window_rules:
         window_class: { regex: 'HwndWrapper' }
       - window_title: {regex: 'Mini App:.+'}
       - window_title: { regex: 'Fluent Search' }
+      - window_class: { equals: 'YYGameMakerYY'}
   - commands: ['set-floating']
     match: 
       - window_title: {regex: 'Now Playing Assistant' }
