@@ -153,6 +153,9 @@ window_rules:
         window_class: { regex: 'HwndWrapper' }
       - window_process: {regex: 'Mini App:.+'}
       - window_title: { regex: 'Fluent Search' }
+  - commands: ['set-floating']
+    match: 
+      - window_title: {regex: 'Now Playing Assistant' }
   - commands: ['move --workspace 2']
     match:
       # Move browsers to workspace 2.
