@@ -157,6 +157,9 @@ window_rules:
     match: 
       - window_title: {regex: 'Now Playing Assistant' }
       - window_title: { equals: 'Everything' }
+  - commands: ['move --workspace 1'] 
+    match:
+        - window_process: { regex: 'anki|GameMaker\S*'}
   - commands: ['move --workspace 2']
     match:
       # Move browsers to workspace 2.
