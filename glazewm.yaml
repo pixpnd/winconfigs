@@ -152,6 +152,7 @@ window_rules:
       - window_process: { equals: 'Lively' }
         window_class: { regex: 'HwndWrapper' }
       - window_process: {regex: 'Mini App:.+'}
+      - window_title: { regex: 'Fluent Search' }
   - commands: ['move --workspace 2']
     match:
       # Move browsers to workspace 2.
