@@ -154,6 +154,8 @@ window_rules:
       - window_title: {regex: 'Mini App:.+'}
       - window_title: { regex: 'Fluent Search' }
       - window_class: { equals: 'YYGameMakerYY'}
+      - window_process: { equals: 'Aseprite'}
+      - window_process: { equals: 'inkscape'}
   - commands: ['set-floating']
     match: 
       - window_title: {regex: 'Now Playing Assistant' }
@@ -169,9 +171,9 @@ window_rules:
   #  match:
     # Ignore gamemaker builds
   #    - window_process: { equals: "Runner" }
-  - commands: ['toggle-fullscreen']
-    match:
-      - window_process: { equals: 'Aseprite'}
+  #- commands: ['toggle-fullscreen']
+   # match:
+   #   - window_process: { equals: 'Aseprite'}
     
 
 binding_modes:
