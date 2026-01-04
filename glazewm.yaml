@@ -163,7 +163,7 @@ window_rules:
   - commands: ['move --workspace 1'] 
     match:
         - window_process: { regex: 'GameMaker\S*'}
-        - window_title: { regex: '.*- Anki'}
+        - window_title: { regex: '.*- Anki$'}
   - commands: ['move --workspace 2']
     match:
       # Move browsers to workspace 2.
